@@ -1,24 +1,26 @@
 
-let name = "rouhi";
-const animal = "shark";
-alert = "animal"
-let num = 32
-let text = "ik ben een tekst"
-const myName = "mark";
-let myAge = 17;
-const diploma = "true";
-let passed;
-let num1 = 69;
-let num2 = 13;
-let answer = num1 + num2; 
-let answer = num1 - num2;
-let answer = num1 * num2;
-let answer = num1 / num2;
-document.write(myName)
-document.write(myAge)
-document.write(diploma)
-document.write(passed)
-console.log(answer1)
-console.log(answer2)
-console.log(answer3)
-console.log(answer4)
+    function color_change_red(){
+       let title = "ditiseentitel";
+        document.getElementById(title).style.color = "red";
+        document.getElementById(title).style.fontWeight = "normal";
+        document.getElementById(title).style.fontSize = "3rem";
+    };
+
+    function color_change_black(){
+        let title = "ditiseentitel";
+    
+    document.getElementById(title).style.color = "black";
+    document.getElementById(title).style.fontWeight = "normal";
+    document.getElementById(title).style.fontSize = "3rem";
+ 
+    };
+    let text1 = document.getElementById("paragraph");
+   
+        
+        function counter() {
+            text.style.backgroundColor = "red";
+    }
+    let text = document.getElementById("paragraph")
+    function text_change() {
+        text.innerText = "get rickrolled"
+    }
