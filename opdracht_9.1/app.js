@@ -19,6 +19,6 @@ function verification() {
     window.location.href = "/opdracht_9.1/oldenough.html";
   } else {
     window.location.href = "/opdracht_9.1/toYoung.html";
-    console.log("niet oud genoeg");
+    
   }
 }
